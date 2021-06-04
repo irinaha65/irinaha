@@ -6,12 +6,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Paul Belfrage Atronomy Site">
+  <link rel="stylesheet" href="styles.css">
   <title>Astronomy objects</title>
 </head>
 
 <body>
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="form.html">Form</a>
+
+  </nav>
   <h1>Nebulae</h1>
-  <img src="images/helix.jpg" alt="Helix Nebula" width="445" height="480">
+  <!--<img src="images/helix.jpg" alt="Helix Nebula">-->
+  <img sizes="(max-width: 445px) 100vw, 445px" srcset="
+  helix_q0hfjn_c_scale,w_200.jpg 200w,
+  helix_q0hfjn_c_scale,w_445.jpg 445w" src="helix_q0hfjn_c_scale,w_445.jpg" alt="">
+
   <h2>Planetary nebulae</h2>
   <h2>Dark nebula</h2>
 
@@ -22,8 +32,12 @@
   <h1>Planets</h1>
   <h2>Rockey Worlds</h2>
   <h3>Earth</h3>
-  <img src="images/mars.jpg" alt="the Planet Mars" width="480" height="480">
+
   <h3>Mars</h3>
+  <!--<img src="images/mars.jpg" alt="Palnet Mars">-->
+  <img sizes="(max-width: 480px) 100vw, 480px" srcset="
+  mars_irpjus_c_scale,w_200.jpg 200w,
+  mars_irpjus_c_scale,w_480.jpg 480w" src="mars_irpjus_c_scale,w_480.jpg" alt="">
 
   <h2>Gas Giants</h2>
   <h3>Jupiter</h3>
